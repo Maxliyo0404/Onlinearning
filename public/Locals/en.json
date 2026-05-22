@@ -2,9 +2,11 @@
      "header":{
         "logo": "Edication",
         "home" : "Home",
-         "courses": "Courses",
-        "services": "Services",
-        "portfolio": "Portfolio",
-        "contact":  "Contact"
-    },
+        "courses": "Courses",
+        "page": "Page",
+        "blog": "Blog",
+        "contact":  "Contact",
+        "singin" : "Singin",
+        "header-btn" : "Sing Up"
+    }
 }
