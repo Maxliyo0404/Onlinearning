@@ -6,7 +6,9 @@ function Hero() {
     const [t, i18n] = useTranslation();
   return (
     <div className="hero">
-        <div className="container"></div>
+        <div className="container">
+            <div className="hero-wrapper"></div>
+        </div>
     </div>
   )
 }
