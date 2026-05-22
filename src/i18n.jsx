@@ -21,7 +21,7 @@ i18n
     },
     backend:{
         loadPath:'/Locals/{{lng}}.json'
-
+    }
   });
 
 
