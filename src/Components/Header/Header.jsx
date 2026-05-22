@@ -5,6 +5,13 @@ import { useTranslation } from "react-i18next";
 
 function Header() {
     const [t, i18n] = useTranslation();
+     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+    const handleChangeLanguage = (event) =>{
+        i18n.changeLanguage(event.target.value)
+    }
   return (
     <div className="header">
         <div className="container">
