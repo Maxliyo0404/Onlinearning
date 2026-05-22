@@ -13,13 +13,7 @@ function Header() {
         i18n.changeLanguage(event.target.value)
     }
   return (
-    <div className="header">
-        <div className="container">
-            <div className="header-wrapper">
-
-            </div>
-        </div>
-    </div>
+    
   )
 }
 
