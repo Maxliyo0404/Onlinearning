@@ -15,7 +15,7 @@ body{
      font-family: "DM Sans", sans-serif;
 }
 .hero{
-    background-image: url(hero/);
+    background-image: url("hero/image/hero_rasm1.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
