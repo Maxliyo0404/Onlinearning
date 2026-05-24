@@ -54,8 +54,8 @@
     }
 }
 .one-rasm{
-    display: block; /* Rasm tagidagi bo'sh joyni yo'qotadi */
-    width: 100%;    /* Rasmni to'liq moslashuvchan qiladi */
+    display: block; 
+    width: 100%;    
     height: auto;
     max-width: 100%;
     border-radius: 4px;
@@ -71,7 +71,7 @@
     color: #086CF9;
     font-size: 22px;
     position: absolute;
-    top: 50%;   /* Markazlashtirish aniqroq qilindi */
+    top: 50%;   
     left: 50%;
     transform: translate(-50%, -50%); 
     animation: playPulse 2s infinite ease-in-out;
