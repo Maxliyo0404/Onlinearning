@@ -22,7 +22,7 @@ body{
     margin-bottom: 100px;
 }
 .hero-info{
-    max-width: 860px;
+    max-width: 900px;
     min-height: auto;
     margin: 0 auto;
     display: flex;
@@ -30,12 +30,22 @@ body{
     justify-content: center;
     flex-direction: column;
     padding-top: 190px ;
+    text-align: center;
 }
 .hero-title{
+    width: 960px;
     font-weight: 700;
     font-size: 56px;
     color: #FFFFFF;
    line-height: 100%;
    margin-bottom: 24px;
+   
+}
+.hero-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+   line-height: 155%;
+   margin-bottom: 54px;
    
 }
