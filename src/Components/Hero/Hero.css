@@ -19,8 +19,12 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+    min-height: 730px;
     
+}
+.hero-wrapper{
+    position: relative;
 }
 .hero-info{
     max-width: 900px;
@@ -62,4 +66,45 @@ body{
     &:hover{
         transform: scale(1.1);
     }
+}
+.hero-list{
+    width: 100%;
+    box-shadow: 0px 11px 35px 0px #00000014;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -93%;
+    border: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+   &:hover{
+    transform: translateY(-8px); 
+    box-shadow: 0 20px 38px rgba(0, 0, 0, 0.15); 
+    cursor: pointer;
+    border-color: #007bff;
+   }
+}
+.hero-item{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.list-title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #222222;
+    line-height: 100%;
+    margin-bottom:8px;
+   
+}
+.list-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #086CF9;
+   line-height: 155%;
+   
 }
