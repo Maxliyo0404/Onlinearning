@@ -38,16 +38,20 @@
 }
 .twoList-title{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 24px;
     color: #222222;
    line-height: 100%;
-   margin-bottom: 12px;
+   margin-bottom: 16px;
    
 }
 .twoList-text{
-    max-width: 423px;
+    max-width: 443px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     color: #555555;
     line-height: 155%;
+}
+.twoList-img{
+    max-width: 100%;
+    margin-bottom: 25px;
 }
