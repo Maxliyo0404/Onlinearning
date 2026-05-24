@@ -26,9 +26,12 @@
     },
     "sectionTwo": {
         "two-title": "How It Work",
-        "two-text" : "",
-        "twoList-title" : "",
-        "twoList-text" : ""
+        "two-text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. ",
+        "twoList-title1" : "Learn More Online",
+        "twoList-title2" : "Writing Notes",
+        "twoList-title3" : "Interactive Sessions",
+        "twoList-title4" : "Life Time Support",
+        "twoList-text" : "Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Aliquam et hendrer it eui smod fusce sit."
       
     }
 }

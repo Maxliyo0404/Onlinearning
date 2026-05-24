@@ -22,5 +22,14 @@
     "one-texts": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies at diam magnis faucibus et faucibus gravida. malesuada fauci bus iaculis eu. Fusce est, consectetur tempor penatibus sed. Ut dolor, vulputate quam nec aliquam aliquam nisl. Auctor eros, iaculis quam nisi, ",
     "one-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et hendrerit euismod fusce sit. ",
     "one-btn": "Batafsil ma'lumot"
+},
+"sectionTwo": {
+    "two-title": "Bu qanday ishlaydi?",
+    "two-text": "Onlayn ta'lim platformamiz orqali qisqa vaqt ichida o'z maqsadlaringizga erishing. Biz bilan o'rganish juda oson va qulay.",
+    "twoList-title1": "Onlayn ta'lim oling",
+    "twoList-title2": "Konspektlar va qaydlar",
+    "twoList-title3": "Interaktiv darslar",
+    "twoList-title4": "Umrbod qo'llab-quvvatlash",
+    "twoList-text": "Darslarimiz eng zamonaviy metodikalar asosida, mutaxassislar tomonidan professional darajada tayyorlangan."
 }
 }
