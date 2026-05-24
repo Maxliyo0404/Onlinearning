@@ -111,27 +111,25 @@
 }
 @media (max-width: 768px) {
     .sectionOne-wrapper {
-        flex-direction: column-reverse; /* Elementlar ustma-ust tushadi */
-        gap: 40px; /* Bloklar orasidagi masofa */
+        flex-direction: column-reverse; 
+        gap: 40px; 
     }
     .sectionOne-left {
-        max-width: 100%; /* To'liq kenglikni egallaydi */
+        max-width: 100%; 
         padding-top: 0;
-        text-align: center; /* Matnlarni o'rtaga tekislaydi */
+        text-align: center; 
     }
     .one-texts, .one-text {
-        max-width: 100%; /* Matnlar cheklanmaydi */
+        max-width: 100%; 
     }
     .sectionOne-right {
-        max-width: 100%; /* Rasm ham to'liq kenglikka o'tadi */
+        max-width: 100%;
         width: 100%;
     }
 }
-
-/* 3. Kichik smartfonlar uchun (480px dan kichik) */
 @media (max-width: 480px) {
     .one-title {
-        font-size: 28px; /* Mobil ekran uchun ideal sarlavha o'lchami */
+        font-size: 28px; 
         line-height: 1.2;
     }
     .one-text {
@@ -139,7 +137,7 @@
         margin-bottom: 24px;
     }
     .one-btn {
-        width: 100%; /* Tugma telefonda to'liq ekran bo'lib turishi qulayroq */
+        width: 100%; 
     }
     .one-spans {
         width: 60px;
