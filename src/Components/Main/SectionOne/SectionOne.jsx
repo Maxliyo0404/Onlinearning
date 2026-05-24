@@ -2,6 +2,7 @@ import "./SectionOne.css";
 import React from 'react'
 import one_rasms from "./image/one_rasms.svg"
 import { useTranslation } from "react-i18next";
+import { FaPlay } from "react-icons/fa";
 
 function SectionOne() {
     const [t, i18n] = useTranslation();
@@ -17,7 +18,7 @@ function SectionOne() {
                 </div>
                 <div className="sectionOne-right">
                     <img className="one-rasm" src={one_rasms} alt="rasm" />
-                    <span className="one-spans"></span>
+                    <span className="one-spans"><FaPlay /></span>
                 </div>
             </div>
         </div>
