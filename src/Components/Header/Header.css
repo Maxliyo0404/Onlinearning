@@ -94,7 +94,14 @@
     transition: 0.3s;
     border-radius: 5px;
 }
-
+@media (max-width: 853px){
+ .header-nav{
+    gap: 20px;
+ }
+ .header-list{
+    gap: 15px;
+ }
+}
 
 @media (max-width: 768px) {
     .burger-menu {
@@ -110,9 +117,10 @@
         background: #ffffff;
         flex-direction: column;
         justify-content: center;
-        transition: 0.5s ease-in-out;
+        transition: top 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 1001;
         gap: 40px;
+        overflow-y: auto;
     }
     .header-nav.active {
         top: 0;
@@ -139,13 +147,21 @@
         max-width: 250px;
     }
 
-    .burger-menu.active span:nth-child(1) {
-        transform: rotate(45deg) translate(6px, 6px);
+   .burger-menu span {
+        transform-origin: center;
+        transition: transform 0.3s ease, opacity 0.2s ease;
     }
+
+    .burger-menu.active span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg); /* Toppa-to'g'ri o'rtaga kelib aylanadi */
+    }
+    
     .burger-menu.active span:nth-child(2) {
         opacity: 0;
+        transform: scale(0); /* Chapga qochmasdan joyida yo'qoladi */
     }
+    
     .burger-menu.active span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -7px);
+        transform: translateY(-9px) rotate(-45deg); /* Pastki chiziq ham o'rtaga chiqadi */
     }
 }
