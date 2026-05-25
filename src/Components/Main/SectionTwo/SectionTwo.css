@@ -27,6 +27,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
+    align-items: stretch;
 }
 .two-item{
     max-width: 100%;
