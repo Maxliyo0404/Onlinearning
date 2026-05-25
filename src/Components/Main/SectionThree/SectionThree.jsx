@@ -15,6 +15,7 @@ function SectionThree() {
             <ul className="three-list">
                 <li className="three-item">
                     <img src={} alt="rasm" />
+                    <div className="list-icons"></div>
                 </li>
             </ul>
             </div>
