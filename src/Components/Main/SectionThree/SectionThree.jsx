@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import "./SectionThree.css";
 import React from 'react'
 import { CiUser } from "react-icons/ci";
+import { TfiEye } from "react-icons/tfi";
+import { TfiEye } from "react-icons/tfi"
 
 function SectionThree() {
     const [t, i18n] = useTranslation();
