@@ -10,7 +10,9 @@ function SectionThree() {
             <div className="sectionThree-wrapper">
             <div className="three-titles">
                 <h2 className="three-title"></h2>
+                <p className="three-text"></p>
             </div>
+            <ul></ul>
             </div>
         </div>
     </div>
