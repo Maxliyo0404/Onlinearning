@@ -4,7 +4,11 @@ import React from 'react'
 function SectionThree() {
   return (
     <div className="sectionThree">
-        <div className="container"></div>
+        <div className="container">
+            <div className="sectionThree-wrapper">
+                
+            </div>
+        </div>
     </div>
   )
 }
