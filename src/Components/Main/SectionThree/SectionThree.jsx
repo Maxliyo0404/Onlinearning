@@ -13,7 +13,9 @@ function SectionThree() {
                 <p className="three-text"></p>
             </div>
             <ul className="three-list">
-                <li></li>
+                <li className="three-item">
+                    
+                </li>
             </ul>
             </div>
         </div>
