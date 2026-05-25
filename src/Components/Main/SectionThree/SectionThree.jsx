@@ -3,7 +3,9 @@ import React from 'react'
 
 function SectionThree() {
   return (
-    <div>SectionThree</div>
+    <div className="sectionThree">
+        <div className="container"></div>
+    </div>
   )
 }
 
