@@ -31,5 +31,17 @@
     "twoList-title3": "Интерактивные занятия",
     "twoList-title4": "Пожизненная поддержка",
     "twoList-text": "Наши курсы разработаны экспертами профессионального уровня на основе самых современных методик."
+},
+"sectionThree": {
+    "three-title": "Все наши онлайн-курсы",
+    "three-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "threeList-title1": "Разработка",
+    "threeList-title2": "Android-разработчик",
+    "threeList-title3": "Курс по JavaScript",
+    "threeList-title4": "Базовый маркетинг",
+    "threeList-title5": "Разработка",
+    "threeList-title6": "Разработка",
+    "threeList-text": "Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.",
+    "three-btn": "Посмотреть все курсы"
 }
 }
