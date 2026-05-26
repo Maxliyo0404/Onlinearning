@@ -29,7 +29,7 @@ function SectionThree() {
                         
                     </div>
                     <h4 className="threeList-title"><span className="threeList-span">$150</span></h4>
-                    <p className="threeList-text"></p>
+                    <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
             </ul>
             </div>
