@@ -24,6 +24,8 @@ function SectionThree() {
                         <div className="sectionThree"><TfiEye />Jgit add </div>
                         <h3 className="list-title">69k</h3>
                          <div className="icon-list"><CiStar /></div>
+                          <h3 className="list-title">4.3k</h3>
+                          <img className="" src={} alt="rasm" />
                         
                     </div>
                 </li>
