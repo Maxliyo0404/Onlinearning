@@ -29,7 +29,7 @@ function SectionThree() {
                         
                     </div>
                     <h4 className="liste-title"><span className="lliste-spans">$150</span></h4>
-                  
+                    <p></p>
                 </li>
             </ul>
             </div>
