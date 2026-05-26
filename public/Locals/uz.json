@@ -31,5 +31,17 @@
     "twoList-title3": "Interaktiv darslar",
     "twoList-title4": "Umrbod qo'llab-quvvatlash",
     "twoList-text": "Darslarimiz eng zamonaviy metodikalar asosida, mutaxassislar tomonidan professional darajada tayyorlangan."
+},
+"sectionThree": {
+    "three-title": "Barcha onlayn kurslarimiz",
+    "three-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "threeList-title1": "Dasturlash",
+    "threeList-title2": "Android dasturchi",
+    "threeList-title3": "JavaScript kursi",
+    "threeList-title4": "Asosiy marketing",
+    "threeList-title5": "Dasturlash",
+    "threeList-title6": "Dasturlash",
+    "threeList-text": "Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.",
+    "three-btn": "Barcha kurslarni ko'rish"
 }
 }
