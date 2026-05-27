@@ -50,3 +50,9 @@
   justify-content: space-between;
   gap: 18px;
 }
+.threeList-title{
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 155%;
+}
