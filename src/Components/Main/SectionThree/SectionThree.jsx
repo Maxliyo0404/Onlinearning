@@ -32,13 +32,12 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h4 className="threeList-title">5.8 k</h4>
-                        <div className="sectionThree"><TfiEye />Jgit add </div>
+                        <div className="sectionThree"><TfiEye /></div>
                         <h4 className="threeList-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
                           <h4 className="threeList-title">4.3k</h4>
                           <img className="list-img" src={three_img11} alt="rasm" />
                     </div>
-                    <hr />
                     <h3 className="threeList-titles">{t("sectionThree.threeList-title2")}<span className="threeList-span">$150</span></h3>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
@@ -47,13 +46,12 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h4 className="threeList-title">5.8 k</h4>
-                        <div className="sectionThree"><TfiEye />Jgit add </div>
+                        <div className="sectionThree"><TfiEye /></div>
                         <h4 className="threeList-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
                           <h4 className="threeList-title">4.3k</h4>
                           <img className="list-img" src={three_img22} alt="rasm" />
                     </div>
-                    <hr />
                     <h3 className="threeList-titles">{t("sectionThree.threeList-title2")}<span className="threeList-span">$130</span></h3>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
@@ -62,13 +60,12 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h4 className="threeList-title">5.8 k</h4>
-                        <div className="sectionThree"><TfiEye />Jgit add </div>
+                        <div className="sectionThree"><TfiEye /></div>
                         <h4 className="threeList-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
                           <h4 className="threeList-title">4.3k</h4>
                           <img className="list-img" src={three_img33} alt="rasm" />
                     </div>
-                    <hr />
                     <h3 className="threeList-titles">{t("sectionThree.threeList-title3")}<span className="threeList-span">$140</span></h3>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
@@ -77,13 +74,12 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h4 className="threeList-title">5.8 k</h4>
-                        <div className="sectionThree"><TfiEye />Jgit add </div>
+                        <div className="sectionThree"><TfiEye /></div>
                         <h4 className="threeList-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
                           <h4 className="threeList-title">4.3k</h4>
                           <img className="list-img" src={three_img44} alt="rasm" />
                     </div>
-                    <hr />
                     <h3 className="threeList-titles">{t("sectionThree.threeList-title2")}<span className="threeList-span">$120</span></h3>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
@@ -92,13 +88,12 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h4 className="threeList-title">5.8 k</h4>
-                        <div className="sectionThree"><TfiEye />Jgit add </div>
+                        <div className="sectionThree"><TfiEye /></div>
                         <h4 className="threeList-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
                           <h4 className="threeList-title">4.3k</h4>
                           <img className="list-img" src={three_img55} alt="rasm" />
                     </div>
-                    <hr />
                     <h3 className="threeList-titles">{t("sectionThree.threeList-title3")}<span className="threeList-span">$120</span></h3>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
@@ -107,13 +102,12 @@ function SectionThree() {
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h4 className="threeList-title">5.8 k</h4>
-                        <div className="sectionThree"><TfiEye />Jgit add </div>
+                        <div className="sectionThree"><TfiEye /></div>
                         <h4 className="threeList-title">69k</h4>
                          <div className="icon-list"><CiStar /></div>
                           <h4 className="threeList-title">4.3k</h4>
                           <img className="list-img" src={three_img66} alt="rasm" />
                     </div>
-                    <hr />
                     <h3 className="threeList-titles">{t("sectionThree.threeList-title4")}<span className="threeList-span">$100</span></h3>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
