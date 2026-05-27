@@ -154,7 +154,8 @@
         box-sizing: border-box; 
     }
 }
-.threeList-titles {
+    @media (max-width: 376px) {
+    .threeList-titles {
         display: flex;
         flex-direction: column;   /* Matn va Narxni ustma-ust qiladi */
         align-items: flex-start;  /* Chapga tekislaydi */
