@@ -43,5 +43,14 @@
     "threeList-title6": "Разработка",
     "threeList-text": "Lorem ipsum dolor sit amet, consecte adipiscing elit. Placerat mauris non dictumst in leo. Lorem ipsum dolor sit.",
     "three-btn": "Посмотреть все курсы"
+},
+"sectionFive": {
+    "five-title": "Предстоящие мероприятия",
+    "five-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum.",
+    "fiveList-title1": "Выступления TED в Педагогическом колледже UCF",
+    "fiveList-title2": "Летние курсы стартуют с июня",
+    "fiveList-title3": "Значимость исследовательского семинара",
+    "fiveList-text1": "16:00 - 20:00",
+    "fiveList-text2": "Дакка, Бангладеш"
 }
 }

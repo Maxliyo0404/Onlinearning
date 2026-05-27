@@ -54,6 +54,15 @@
         "fourList-texte1" : "CEO, Developer",
         "fourList-texte2" : "Content Writter",
         "fourList-text" : "25+ Courses"
-    }
+    },
+     "sectionFive": {
+        "five-title" : "Upcoming Event",
+        "five-text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum.",
+        "fiveList-title1": "TED Talks at UCF College of Education",
+        "fiveList-title2": "Summer Course Starts From June",
+        "fiveList-title3": "Importance of Research Seminar",
+        "fiveList-text1": "4.00 pm - 8.00 pm",
+        "fiveList-text2": "Dhaka Bangladesh"
+     }
    
 }
