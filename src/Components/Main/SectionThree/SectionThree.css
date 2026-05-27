@@ -27,3 +27,11 @@
     color: #555555;
     line-height: 155%;
 }
+.three-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.three-item{
+    max-width: 100%;
+}
