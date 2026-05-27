@@ -17,6 +17,19 @@ function SectionFour() {
                         <img src={} alt="rasm" />
                         <h3 className="fourList-title"></h3>
                         <p className="fourList-text"></p>
+                        <div className="four-icons">
+                            <div className="four-icon">
+                                <div className="fourList-icons">
+                                 <div className="fourList-user">
+                                    <p className="fourlist-text"></p>
+                                 </div>
+                                 <div className="fourList-star">
+                                    <p className="fourlist-text"></p>
+                                 </div>
+                                </div>
+                                <p className=""></p>
+                            </div>
+                        </div>
                         
                     </li>
                 </ul>
