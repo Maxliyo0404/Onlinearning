@@ -9,29 +9,68 @@ function SectionFour() {
         <div className="container">
             <div className="sectionFour-wrapper">
                 <div className="four-titles">
-                    <h2 className="four-title">{t("")}</h2>
-                    <p className="four-text"></p>
+                    <h2 className="four-title">{t("sectionFour.four-title")}</h2>
+                    <p className="four-text">{t("sectionFour.four-text")}</p>
                 </div>
                 <ul className="four-list">
                     <li className="four-item">
                         <img src={} alt="rasm" />
-                        <h3 className="fourList-title"></h3>
-                        <p className="fourList-texte"></p>
+                        <h3 className="fourList-title">{t("sectionFour.fourList-title1")}</h3>
+                        <p className="fourList-texte">{t("sectionFour.fourList-texte1")}</p>
                         <div className="four-icons">
                             <div className="four-icon">
                                 <div className="fourList-icons">
                                  <div className="fourList-user">
-                                    <p className="fourlist-text"></p>
+                                    <p className="fourlist-text">8.2k</p>
                                  </div>
                                  <div className="fourList-star">
-                                    <p className="fourlist-text"></p>
+                                    <p className="fourlist-text">4.5</p>
                                  </div>
                                 </div>
                             </div>
-                            <p className="fourlist-text"></p>
+                            <p className="fourlist-text">{t("sectionFour.fourList-text")}</p>
                         </div>
                         
                     </li>
+                    <li className="four-item">
+                        <img src={} alt="rasm" />
+                        <h3 className="fourList-title">{t("sectionFour.fourList-title2")}</h3>
+                        <p className="fourList-texte">{t("sectionFour.fourList-texte2")}</p>
+                        <div className="four-icons">
+                            <div className="four-icon">
+                                <div className="fourList-icons">
+                                 <div className="fourList-user">
+                                    <p className="fourlist-text">8.2k</p>
+                                 </div>
+                                 <div className="fourList-star">
+                                    <p className="fourlist-text">4.5</p>
+                                 </div>
+                                </div>
+                            </div>
+                            <p className="fourlist-text">{t("sectionFour.fourList-text")}</p>
+                        </div>
+                        
+                    </li>
+                    <li className="four-item">
+                        <img src={} alt="rasm" />
+                        <h3 className="fourList-title">{t("sectionFour.fourList-title1")}</h3>
+                        <p className="fourList-texte">{t("sectionFour.fourList-texte2")}</p>
+                        <div className="four-icons">
+                            <div className="four-icon">
+                                <div className="fourList-icons">
+                                 <div className="fourList-user">
+                                    <p className="fourlist-text">8.2k</p>
+                                 </div>
+                                 <div className="fourList-star">
+                                    <p className="fourlist-text">4.5</p>
+                                 </div>
+                                </div>
+                            </div>
+                            <p className="fourlist-text">{t("sectionFour.fourList-text")}</p>
+                        </div>
+                        
+                    </li>
+                  
                 </ul>
             </div>
         </div>

@@ -51,9 +51,9 @@
         "four-text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, vestibulum euismod nullam elementum. Urna, posuere nisi sit gravida massa.",
         "fourList-title1" : "Mohammod Ali",
         "fourList-title2" : "Braniya Lara",
-        "fourList-text1" : "CEO, Developer",
-        "fourList-text2" : "Content Writter",
-        "fourList-texte" : "25+ Courses"
+        "fourList-texte1" : "CEO, Developer",
+        "fourList-texte2" : "Content Writter",
+        "fourList-text" : "25+ Courses"
     }
    
 }
