@@ -164,7 +164,7 @@
     /* Ro'yxat (kartochkalar) 100% kenglik bilan birinchi qatorni to'liq egallaydi */
     .eight-list {
         width: 100%;
-        order: 1;              /* Birinchi navbatda tepada turadi */
+        order: 1;            
         margin-bottom: 20px;
     }
     .eight-isons {
