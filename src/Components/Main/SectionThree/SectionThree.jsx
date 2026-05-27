@@ -11,6 +11,12 @@ import three_img2 from "./image/three_img2.svg";
 import three_img22 from "./image/three_img22.svg";
 import three_img3 from "./image/three_img3.svg";
 import three_img33 from "./image/three_img33.svg";
+import three_img4 from "./image/three_img4.svg";
+import three_img33 from "./image/three_img33.svg";
+import three_img5 from "./image/three_img5.svg";
+import three_img55 from "./image/three_img55.svg";
+import three_img6 from "./image/three_img6.svg";
+import three_img66 from "./image/three_img66.svg";
 function SectionThree() {
     const [t, i18n] = useTranslation();
   return (
@@ -68,7 +74,7 @@ function SectionThree() {
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
                 <li className="three-item">
-                    <img className="three-img" src={} alt="rasm" />
+                    <img className="three-img" src={three_img4} alt="rasm" />
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h3 className="list-title">5.8 k</h3>
@@ -76,14 +82,14 @@ function SectionThree() {
                         <h3 className="list-title">69k</h3>
                          <div className="icon-list"><CiStar /></div>
                           <h3 className="list-title">4.3k</h3>
-                          <img className="list-img" src={} alt="rasm" />
+                          <img className="list-img" src={three_img33} alt="rasm" />
                         
                     </div>
                     <h4 className="threeList-title">{t("sectionThree.threeList-title2")}<span className="threeList-span">$120</span></h4>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
                 <li className="three-item">
-                    <img className="three-img" src={} alt="rasm" />
+                    <img className="three-img" src={three_img5} alt="rasm" />
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h3 className="list-title">5.8 k</h3>
@@ -91,14 +97,14 @@ function SectionThree() {
                         <h3 className="list-title">69k</h3>
                          <div className="icon-list"><CiStar /></div>
                           <h3 className="list-title">4.3k</h3>
-                          <img className="list-img" src={} alt="rasm" />
+                          <img className="list-img" src={three_img55} alt="rasm" />
                         
                     </div>
                     <h4 className="threeList-title">{t("sectionThree.threeList-title3")}<span className="threeList-span">$120</span></h4>
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                 </li>
                 <li className="three-item">
-                    <img className="three-img" src={} alt="rasm" />
+                    <img className="three-img" src={three_img6} alt="rasm" />
                     <div className="list-icons">
                         <div className="icon-list"><CiUser /></div>
                         <h3 className="list-title">5.8 k</h3>
@@ -106,7 +112,7 @@ function SectionThree() {
                         <h3 className="list-title">69k</h3>
                          <div className="icon-list"><CiStar /></div>
                           <h3 className="list-title">4.3k</h3>
-                          <img className="list-img" src={} alt="rasm" />
+                          <img className="list-img" src={three_img66} alt="rasm" />
                         
                     </div>
                     <h4 className="threeList-title">{t("sectionThree.threeList-title4")}<span className="threeList-span">$100</span></h4>
