@@ -16,7 +16,7 @@ function SectionFour() {
                     <li className="four-item">
                         <img src={} alt="rasm" />
                         <h3 className="fourList-title"></h3>
-                        <p className="fourList-text"></p>
+                        <p className="fourList-texte"></p>
                         <div className="four-icons">
                             <div className="four-icon">
                                 <div className="fourList-icons">
