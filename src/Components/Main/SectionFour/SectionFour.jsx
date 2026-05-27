@@ -1,6 +1,9 @@
 import { useTranslation } from "react-i18next";
 import "./SectionFour.css";
 import React from 'react'
+import four_img1 from "./image/four_img1.svg";
+import four_img2 from "./image/four_img2.svg";
+import four_img3 from "./image/four_img3.svg";
 
 function SectionFour() {
     const [t, i18n] = useTranslation();
@@ -14,7 +17,7 @@ function SectionFour() {
                 </div>
                 <ul className="four-list">
                     <li className="four-item">
-                        <img src={} alt="rasm" />
+                        <img src={four_img1} alt="rasm" />
                         <h3 className="fourList-title">{t("sectionFour.fourList-title1")}</h3>
                         <p className="fourList-texte">{t("sectionFour.fourList-texte1")}</p>
                         <div className="four-icons">
@@ -33,7 +36,7 @@ function SectionFour() {
                         
                     </li>
                     <li className="four-item">
-                        <img src={} alt="rasm" />
+                        <img src={four_img2} alt="rasm" />
                         <h3 className="fourList-title">{t("sectionFour.fourList-title2")}</h3>
                         <p className="fourList-texte">{t("sectionFour.fourList-texte2")}</p>
                         <div className="four-icons">
@@ -52,7 +55,7 @@ function SectionFour() {
                         
                     </li>
                     <li className="four-item">
-                        <img src={} alt="rasm" />
+                        <img src={four_img3} alt="rasm" />
                         <h3 className="fourList-title">{t("sectionFour.fourList-title1")}</h3>
                         <p className="fourList-texte">{t("sectionFour.fourList-texte2")}</p>
                         <div className="four-icons">
