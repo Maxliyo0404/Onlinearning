@@ -1,0 +1,153 @@
+.sectionFive-wrapper{
+    padding: 40px 0;
+}
+.five-titles{
+  max-width: 551px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.five-title{
+    max-width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    color: #222222;
+   line-height: 100%;
+   margin-bottom: 12px;
+   
+}
+.five-text{
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 155%;
+}
+.five-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+    margin-bottom:48px ;
+}
+.five-item{
+    max-width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+   box-shadow: 0px 11px 55px 0px #00000014;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid transparent; 
+    &:hover{
+       transform: scale(0.95); 
+        box-shadow: 0 12px 30px rgba(8, 108, 249, 0.15); 
+        border-color: rgba(8, 108, 249, 0.3);
+    }
+    
+}
+.five-imgs{
+    position: relative;
+    z-index: 1;
+}
+.five-img{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.five-span{
+    width: 65px;
+    height:62px ;
+    border-top-left-radius: 6px;
+    background: #086CF9;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height:62px;
+    
+}
+.fiveList-titles{
+    padding: 18px 20px 30px;
+}
+.fiveList-title{
+    max-width: 235px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #222222;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+.fiveList-icons{
+    width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 29px;
+}
+.fiveList-icon{
+   display: flex;
+   align-items: center;
+   gap:8px ;
+   
+}
+.fiveList-text{
+     font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+    line-height: 155%
+}
+@media (max-width: 992px) {
+    .five-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .five-title {
+        font-size: 34px;
+    }
+    .fiveList-title {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionFive-wrapper {
+        padding: 30px 0;
+    }
+    .five-titles {
+        margin-bottom: 32px;
+    }
+    .five-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .five-list {
+        grid-template-columns: 1fr; 
+        gap: 24px;
+    }
+    .five-title {
+        font-size: 24px;
+    }
+    .five-text {
+        font-size: 14px;
+    }
+   
+}
+@media (max-width: 400px) {
+    .fiveList-titles {
+        padding: 18px 16px 24px;
+    }
+    .fiveList-icons {
+        flex-direction: column; 
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .fiveList-title {
+        font-size: 17px;
+    }
+   
+}
