@@ -123,8 +123,8 @@ function SectionThree() {
                     <p className="threeList-text">{t("sectionThree.threeList-text")}</p>
                     </div>
                 </li>
-                
             </ul>
+            <button className="three-btn">{t("sectionThree.three-btn")}</button>
             </div>
         </div>
     </div>
