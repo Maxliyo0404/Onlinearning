@@ -12,8 +12,8 @@ function SectionThree() {
         <div className="container">
             <div className="sectionThree-wrapper">
             <div className="three-titles">
-                <h2 className="three-title"></h2>
-                <p className="three-text"></p>
+                <h2 className="three-title">{t("sectionThree.three-title")}</h2>
+                <p className="three-text">{t("sectionThree.three-text")}</p>
             </div>
             <ul className="three-list">
                 <li className="three-item">
