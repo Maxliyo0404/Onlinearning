@@ -83,6 +83,7 @@
     padding-top: 20px;
 }
 .threeList-titles{
+    max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,14 +107,12 @@
 }
 @media (max-width: 1024px) {
     .three-title {
-        font-size: 38px; /* Sarlavha shriftini biroz kichiklashtiramiz */
+        font-size: 38px;
     }
     .three-list {
-        gap: 20px; /* Kartalar orasidagi masofani qisqartiramiz */
+        gap: 20px;
     }
 }
-
-/* Planshetlar uchun (O'rta ekranlar) */
 @media (max-width: 992px) {
     .three-list {
         grid-template-columns: repeat(2, 1fr); 
@@ -153,5 +152,17 @@
         max-width: 100%;
         padding: 20px;     
         box-sizing: border-box; 
+    }
+}
+.threeList-titles {
+        display: flex;
+        flex-direction: column;   /* Matn va Narxni ustma-ust qiladi */
+        align-items: flex-start;  /* Chapga tekislaydi */
+        gap: 8px;                 /* Oraliq masofa */
+    }
+    
+    .list-icons {
+        flex-wrap: wrap;          /* Agar ikonkalar sig'masa, pastga tushadi */
+        gap: 10px;                /* Masofani biroz kamaytiramiz */
     }
 }
