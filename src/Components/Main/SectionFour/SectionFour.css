@@ -38,13 +38,13 @@
     transition: transform 0.3s ease-in-out;
     border: 1px solid transparent; 
     &:hover{
-       transform: scale(0.9); 
+       transform: scale(0.95); 
         box-shadow: 0 12px 30px rgba(8, 108, 249, 0.15); 
         border-color: rgba(8, 108, 249, 0.3);
     }
     
 }
-.four-img{
+.four-rasm{
     width: 100%;
     max-width: 100%;
     border-top-left-radius: 10px;
@@ -103,3 +103,55 @@
     font-size: 16px;
     color: #086CF9;
 }
+
+@media (max-width: 1024px) {
+    .four-title {
+        font-size: 38px;
+    }
+    .fourList-texte {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 992px) {
+    .four-list {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+    .four-title {
+        font-size: 34px;
+    }
+    .fourList-icons {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 768px) {
+    .sectionFour {
+        padding: 30px 0;
+    }
+    .four-titles {
+        margin-bottom: 32px;
+    }
+    .four-items {
+        padding: 16px 15px 20px; 
+    }
+    
+}
+
+
+@media (max-width: 576px) {
+    .four-list {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .four-title {
+        font-size: 24px;
+    }
+    .four-text {
+        font-size: 14px;
+    }
+
+
+}
+

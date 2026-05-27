@@ -19,7 +19,7 @@ function SectionFour() {
                 </div>
                 <ul className="four-list">
                     <li className="four-item">
-                        <img src={four_img1} alt="rasm" />
+                        <img className="four-rasm" src={four_img1} alt="rasm" />
                         <div className="four-items">
                         <h3 className="fourList-title">{t("sectionFour.fourList-title1")}</h3>
                         <p className="fourList-texte">{t("sectionFour.fourList-texte1")}</p>
@@ -42,7 +42,7 @@ function SectionFour() {
                         
                     </li>
                     <li className="four-item">
-                        <img src={four_img2} alt="rasm" />
+                        <img className="four-rasm" src={four_img2} alt="rasm" />
                         <div className="four-items">
                         <h3 className="fourList-title">{t("sectionFour.fourList-title2")}</h3>
                         <p className="fourList-texte">{t("sectionFour.fourList-texte2")}</p>
@@ -65,7 +65,7 @@ function SectionFour() {
                         
                     </li>
                     <li className="four-item">
-                        <img src={four_img3} alt="rasm" />
+                        <img className="four-rasm" src={four_img3} alt="rasm" />
                         <div className="four-items">
                         <h3 className="fourList-title">{t("sectionFour.fourList-title1")}</h3>
                         <p className="fourList-texte">{t("sectionFour.fourList-texte2")}</p>
