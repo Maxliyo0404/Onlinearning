@@ -37,8 +37,10 @@ function SectionNine() {
                      <p className="nine-text">{t("sectionNine.nine-text")}</p>
                 </div>
                 <form className="form" onSubmit={sendMessage}>
+                    <label className="label">
                     <input id="username" className="input" type="text" required placeholder={t("sectionNine.nine-input")} />
                     <button type="submit" className="nine-btn">{t("sectionNine.nine-btn")}</button>
+                    </label>
                 </form>
             </div>
         </div>
