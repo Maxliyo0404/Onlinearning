@@ -27,6 +27,8 @@ function Footer() {
                             <div className="footer-pikto"><BiLogoInstagramAlt /></div>
                             <div className="footer-pikto"><FaLinkedinIn /></div>
                         </div>
+                     </div>
+                </div>
                 <div className="footer-col">
                    <h4 className="footer-title">{t("footer.footer-title1")}</h4> 
                 <ul className="footer-list">

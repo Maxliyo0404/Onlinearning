@@ -93,6 +93,24 @@
         "nine-input": "Enter your email...",
         "nine-btn": "Subscribe"
 
+     },
+     "footer": {
+        "footer-logo": "",
+        "footer-text": "",
+        "footer-title1": "",
+        "footer-title2": "",
+        "footer-title3": "",
+        "footer-link1": "",
+        "footer-link2": "",
+        "footer-link3": "",
+        "footer-link4": "",
+        "footer-link5": "",
+        "footer-link6": "",
+        "footer-link7": "",
+        "footer-link8": "",
+        "footer-link9": "",
+        "footer-link10": "",
+        "footer-link11": "",
      }
    
 }
