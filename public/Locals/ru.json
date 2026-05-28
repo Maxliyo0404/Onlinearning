@@ -75,5 +75,11 @@
    "eightList-title2": "Mukter Hossain",
    "eightList-title3": "Jony Sing",
    "eightList-text": "UI/UX Студент"
+},
+  "sectionNine": {
+  "nine-title": "Что говорят наши студенты",
+  "nine-text": "Подпишитесь, чтобы получать наши последние новости и полезные материалы.",
+  "nine-input": "Введите ваш email...",
+  "nine-btn": "Подписаться"
 }
 }
