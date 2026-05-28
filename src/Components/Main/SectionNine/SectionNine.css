@@ -74,43 +74,36 @@
         transform: scale(1.05);
     }
 }
-/* 576px dan kichik bo'lgan telefonlar uchun */
 @media (max-width: 576px) {
     .sectionNine-wrapper {
-        margin-bottom: 60px; /* Mobil telefonda pastki bo'shliq biroz qisqartirildi */
-        padding: 40px 16px;
+        margin-bottom: 60px;
+        padding: 40px 12px;
     }
 
     .nine-title {
-        font-size: 28px; /* Sarlavha shrifti kichraytirildi */
+        font-size: 26px; 
+        line-height: 30px;
     }
 
     .nine-text {
-        font-size: 14px; /* Matn shrifti kichraytirildi */
-    }
-
-    .nine-titles {
+        font-size: 14px;
         margin-bottom: 24px;
     }
 
-    /* Input va tugmani mobil telefonda ustma-ust tushirish */
+    .nine-titles {
+        margin-bottom: 20px;
+    }
     .label {
-        flex-direction: column;
-        background: transparent; /* Fonni olib tashlaymiz, chunki har bir element alohida bo'ladi */
-        padding: 0;
-        gap: 12px; /* Elementlar orasidagi masofa */
+        padding: 6px; 
     }
 
     .input {
-        background: #FFFFFF;
-        padding: 14px;
-        border-radius: 4px;
-        width: 100%;
-        box-sizing: border-box;
+        font-size: 13px; 
+        padding: 0 6px;
     }
 
     .nine-btn {
-        width: 100%; /* Tugma to'liq enni egallaydi */
-        padding: 14px; /* Bosishga qulay bo'lishi uchun padding kattalashtirildi */
+        padding: 8px 16px; 
+        font-size: 13px;   
     }
 }
