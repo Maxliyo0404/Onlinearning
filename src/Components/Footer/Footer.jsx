@@ -8,7 +8,9 @@ function Footer() {
     <div className="footer">
         <div className="container">
             <div className="footer-wrapper">
-                
+                <ul className="footer-list">
+                    <li className="footer-item"></li>
+                </ul>
             </div>
         </div>
     </div>
