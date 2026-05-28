@@ -94,3 +94,34 @@
 .footer-phone{
   color: #222222;
 }
+@media (max-width: 890px) {
+    .footer-wrapper {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 30px;
+        padding: 40px 16px;
+    }
+    .footer-logo, .footer-title, .footer-span {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .footer-wrapper {
+        grid-template-columns: 1fr; 
+        gap: 35px;
+        padding: 40px 12px;
+    }
+    .footer-logo, .footer-title, .footer-span {
+        font-size: 22px; 
+        margin-bottom: 16px;
+    }
+
+    .footer-text {
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+
+    .footer-link {
+        margin-bottom: 14px; /
+    }
+}
