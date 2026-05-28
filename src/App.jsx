@@ -10,6 +10,7 @@ import SectionFive from "./Components/Main/SectionFive/SectionFive";
 import SectionSix from "./Components/Main/SectionSix/SectionSix";
 import SectionSeven from "./Components/Main/SectionSeven/SectionSeven";
 import SectionEight from "./Components/Main/SectionEight/SectionEight";
+import SectionNine from "./Components/Main/SectionNine/SectionNine";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <SectionSix/>
       <SectionSeven/>
       <SectionEight/>
+      <SectionNine/>
     </div>
   )
 }
