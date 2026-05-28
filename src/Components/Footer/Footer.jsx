@@ -21,11 +21,12 @@ function Footer() {
                         </div>
                      </div>
                 </div>
+                <div className="footer-col">
+                   <h4 className="footer-title">{t("footer.footer-title")}</h4> 
                 <ul className="footer-list">
-                    <li className="footer-item">
-                        <h3></h3>
-                    </li>
+                    <li><a className="footer-link" href="#"></a></li>
                 </ul>
+                </div>
             </div>
         </div>
     </div>
