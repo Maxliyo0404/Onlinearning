@@ -20,7 +20,12 @@ function SectionNine() {
              text:messageContent,
         }
     })
-
+    .then(()=>{
+    alert("Successfully sent!✅");
+  }).catch((error)=>{
+    console.log(error);
+    
+  })
     
 }
   return (
@@ -31,7 +36,7 @@ function SectionNine() {
                      <h2 className="nine-title">{t("sectionNine.nine-title")}</h2>
                      <p className="nine-text">{t("sectionNine.nine-text")}</p>
                 </div>
-                <form className="form">
+                <form className="form" onSubmit={sendMessage}>
                     <input id="username" className="input" type="text" required placeholder={} />
                     <button type="submit" className="nine-btn"></button>
                 </form>
