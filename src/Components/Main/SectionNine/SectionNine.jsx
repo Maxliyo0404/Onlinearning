@@ -8,7 +8,13 @@ function SectionNine() {
     <div className="sectionNine">
         <div className="container">
             <div className="sectionNine-wrapper">
-                
+                <div className="nine-titles">
+                     <h2 className="nine-title">{t("sectionNine.nine-title")}</h2>
+                     <p className="nine-text">{t("sectionNine.nine-text")}</p>
+                </div>
+                <form className="form">
+                    
+                </form>
             </div>
         </div>
     </div>
