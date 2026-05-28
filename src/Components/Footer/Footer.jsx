@@ -13,6 +13,12 @@ function Footer() {
                      <p className="footer-text">{t("footer.footer-text")}</p>
                      <div className="footer-icons">
                         <span className="footer-span">{t("footer.footer-span")}</span>
+                        <div className="footer-piktos">
+                            <div className="footer-pikto"></div>
+                            <div className="footer-pikto"></div>
+                            <div className="footer-pikto"></div>
+                            <div className="footer-pikto"></div>
+                        </div>
                      </div>
                 </div>
                 <ul className="footer-list">
