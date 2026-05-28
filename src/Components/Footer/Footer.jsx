@@ -43,7 +43,15 @@ function Footer() {
                     <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link11")}</a></li>
                 </ul>
                 </div>
-                
+                <div className="footer-col">
+                    <h4 className="footer-title">{t("footer.footer-title3")}</h4> 
+                    <ul className="footer-contact">
+                        <li><i class="icon-location"></i> 230, Mirpur Area, Mirpur 10, Dhaka, Bangladesh</li>
+                        <li><i class="icon-phone"></i> +017 4845 7269</li>
+                        <li><i class="icon-email"></i> info@gmail.com</li>
+                        <li><i class="icon-web"></i> www.yourdomain.com</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
