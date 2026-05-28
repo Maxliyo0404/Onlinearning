@@ -32,31 +32,34 @@ function Footer() {
                 <div className="footer-col">
                    <h4 className="footer-title">{t("footer.footer-title1")}</h4> 
                 <ul className="footer-list">
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link1")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link2")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link3")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link4")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link5")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link6")}</a></li>
+                    <li><a className="footer-link" href="#"> <span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link1")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link2")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link3")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link4")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link5")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link6")}</a></li>
                 </ul>
                 </div>
                 <div className="footer-col">
                    <h4 className="footer-title">{t("footer.footer-title2")}</h4> 
                 <ul className="footer-list">
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link7")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link8")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link9")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link10")}</a></li>
-                    <li><a className="footer-link" href="#"><FaChevronRight />{t("footer.footer-link11")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link7")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link8")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link9")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link10")}</a></li>
+                    <li><a className="footer-link" href="#"><span className="chevro-right"><FaChevronRight /></span>{t("footer.footer-link11")}</a></li>
                 </ul>
                 </div>
                 <div className="footer-col">
                     <h4 className="footer-title">{t("footer.footer-title3")}</h4> 
                     <ul className="footer-contact">
-                        <li><i class="icon-location"></i> 230, Mirpur Area, Mirpur 10, Dhaka, Bangladesh</li>
-                        <li><i class="icon-phone"></i> <FaPhone /> +017 4845 7269</li>
-                        <li><i class="icon-email"></i><MdOutlineMail /> info@gmail.com</li>
-                        <li><i class="icon-web"></i><IoGlobeOutline /> www.yourdomain.com</li>
+
+                        <li><a className="footer-link" href="#"> 230, Mirpur Area, Mirpur 10, Dhaka, Bangladesh</a></li>
+                        <li><a className="footer-link" href="#"> <span className="footer-phone"><FaPhone /></span> +017 4845 7269</a></li>
+                        <li><a className="footer-link" href="#"><span className="footer-phone"><MdOutlineMail /> </span>info@gmail.com</a></li>
+                        <li><a className="footer-link" href="#"><span className="footer-phone"><IoGlobeOutline /></span>  www.yourdomain.com</a></li>
+                        
+    
                     </ul>
                 </div>
             </div>
